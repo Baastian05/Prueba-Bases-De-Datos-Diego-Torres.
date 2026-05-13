@@ -35,5 +35,3 @@ Son reglas de integridad referencial que definen el comportamiento del sistema a
 * **ON DELETE CASCADE:** Automatiza la limpieza eliminando registros "hijos" cuando se borra un registro "padre".
 * **RESTRICT (Aplicada en este proyecto):** Bloquea la eliminación del registro "padre" si detecta que existen registros relacionados, garantizando que no existan datos huérfanos y protegiendo el historial de la plataforma.
 
----
-*Este repositorio contiene el desarrollo manual, diagramas y scripts SQL correspondientes a la evaluación de la asignatura de Bases de Datos.*
